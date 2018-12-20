@@ -39,7 +39,7 @@ e.g. `MyRest1, MyRest2` then just include those classes as well in the list of c
                                 port=port,
                                 restClassObjects=[MyRest(), MyRest1(), MyRest2()])
 
-#### None
+#### Note
 
 One thing to note is the signature of the method(s) acting as REST endpoints. Each such method should be decorated with
 `@RequestMapping()` and return type of each method should be `ResponseEntity()`.
